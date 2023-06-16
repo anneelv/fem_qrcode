@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, Lobster;
+}
+
+.ptitle {
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+img {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
